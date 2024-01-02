@@ -5,4 +5,5 @@ The repository hosts SQL solutions from the LeetCode website, offering a resourc
 The solutions are categorized into three levels: Easy, Medium, and Hard. Each category includes the question followed by its corresponding solution.
 
 
-https://repository-images.githubusercontent.com/597198795/b64f4fe8-f839-47ba-af83-9f15fa6c19e7
+![image](https://github.com/santhoshdm07/LeetCode-SQL/assets/50210267/45486ea9-6ed4-4796-9469-512c0a814708)
+
