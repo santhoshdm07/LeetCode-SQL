@@ -45,9 +45,7 @@
 
 
 
-SELECT CASE
-            WHEN s.id % 2 <> 0 AND s.id = (SELECT COUNT(*) FROM seat ) THEN s.id
-            WHEN s.id % 2 = 0 THEN s.id - 1
-            ELSE s.id + 1
-            END id, s.student
+SELECT
+ROW_NUMBER() OVER(order by IF(MOD(s.id, 2) = 0, s.id-1, s.id+1) ) as id,
+s.student
 FROM seat s
